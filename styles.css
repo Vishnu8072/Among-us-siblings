@@ -1,0 +1,241 @@
+
+@media only screen and (max-width: 750px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    @media (prefers-reduced-motion: no-preference) {
+      * {
+        scroll-behavior: smooth;
+      }
+    }
+    
+    body {
+        background: ghostwhite;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    
+    header {
+        width: 100vw;
+        height: 55px;
+        position: fixed;
+        background: black;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        color: white
+    }
+    
+    header h1 {
+        color: white;
+    }
+    
+    header nav {
+        width: 400px;
+    }
+    
+    header nav ul {
+        display: grid;
+        grid-template-columns: 10px 10px 10px 10px;
+        column-gap: 90px;
+    }
+    
+    /*header nav {
+        width: 350px;
+    }*/
+    
+    /*header nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }*/
+    
+    header nav ul li {
+        color: white;
+        display: block;
+        margin-top: 10px;
+    }
+    
+    header nav ul li a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    header nav ul li a:hover {
+        background-color: white;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .up {
+        position: fixed;
+        margin-top: 655px;
+        margin-left: 1450px;
+        background: white;
+        padding: 16px 20px;
+        border-radius: 50%;
+        color: black;
+    }
+    
+    .up:hover {
+        background: grey;
+        color: white;
+    }
+    
+    main {
+        overflow: hidden;
+    }
+    
+    /*img {
+        border-radius: 20px;
+    }*/
+    
+    section {
+        overflow: hidden;
+    }
+    
+    #one {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Rubik Bubbles;
+    }
+    
+    #two, #three, #four, #five {
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        color: white;
+    }
+    
+    #two img, #three img, #four img, #five img {
+        margin-top: 50px;
+        /*padding-left: 38vw;*/
+    }
+    
+    #two {
+        background: linear-gradient(200deg, black, rgb(50, 45, 45));
+    }
+    
+    #three {
+        background: linear-gradient(200deg, lightpink, pink);
+    }
+    
+    #four {
+        background: linear-gradient(200deg, tan, rgb(244, 200, 143));
+    }
+    
+    #five {
+        background: linear-gradient(200deg, lime, rgb(78, 255, 78));
+    }
+    
+    img {
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+    figcaption {
+        text-align: center;
+    }
+    
+    .small {
+        font-size: 13px;
+        vertical-align: middle;
+    }
+    
+    .div {
+        width: 100%;
+    }
+    
+    .par {
+        font-size: 16px;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .image1 {
+        box-shadow: 5px 5px 50px grey,
+                    -5px -5px 50px grey;
+    }
+    
+    .image2 {
+        box-shadow: 5px 5px 50px rgb(255, 193, 244),
+                    -5px -5px 50px rgb(255, 193, 244);
+    }
+    
+    .image3 {
+        box-shadow: 5px 5px 50px rgb(255, 179, 80),
+                    -5px -5px 50px rgb(255, 179, 80);
+    }
+    
+    .image4 {
+        box-shadow: 5px 5px 50px yellow,
+                    -5px -5px 50px yellow;
+    }
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li {
+        color: ghostwhite;
+    }
+
+    header nav ul li a {
+        border: 0 !important;
+        clip: rect(1px, 1px, 1px, 1px) !important;
+        clip-path: inset(50%) !important;
+        height: 1px !important;
+        width: 1px !important;
+        position: absolute !important;
+        overflow: hidden !important;
+        white-space: nowrap !important;
+        padding: 0 !important;
+        margin: -1px !important;
+    }
+
+    header {
+        display: block;
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    #one .small {
+        display: block;
+        color: ghostwhite;
+    }
+
+    #one {
+        text-align: center;
+    }
+
+    /*#one .small .small-text {
+        color: black;
+        margin-left: 170px;
+    }*/
+
+    img {
+        width: 200px;
+        height: 300px;
+    }
+
+    #two, #three, #four, #five {
+        font-size: 19px;
+    }
+
+    .par {
+        font-size: 15px;
+        max-width: 500px;
+        line-height: 30px;
+    }
+}
